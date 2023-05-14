@@ -9,7 +9,7 @@ function VisibiltyControl({ setShowCompleted, cleanTask, isChecked }) {
   }
 
   return (
-    <div>
+    <div className='VisibiltyControl'>
       <input
         type="checkbox"
         checked={isChecked}

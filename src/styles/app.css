@@ -14,11 +14,11 @@ body {
   justify-content: center;
   align-items: center;
   display: flex;
-  height: 100vh;
   width: 100%;
 }
 
 .app {
+    margin-top: 25%;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -53,9 +53,42 @@ button {
 /* TaskTable */
 
 table {
-  margin-top: 20px;
+  margin-top: 40px;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  background-color: blue;
+  padding: 15px;
+  border-radius: 20px;
 }
 
 th{
     font-size: xx-large;
+    color: white;
+    font-weight: 400;
+}
+
+table>thead{
+    text-align: center;
+    margin: 0px auto 0px;
+}
+
+.task{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    margin-bottom: 5px;
+    justify-content: space-between;
+    font-size: x-large;
+    background-color: cornflowerblue;
+    padding: 8px 20px;
+    border-radius: 20px;
+    color: rgb(48, 48, 48);
+}
+
+.VisibiltyControl{
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    width: 100%;
 }
