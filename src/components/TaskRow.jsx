@@ -2,9 +2,10 @@
 function TaskRow({ task, toggleTask }) {
   return (
     <tr key={task.name} className="task">
-      <td >{task.name}</td>
+      <td>{task.name}</td>
       <td>
         <input
+          className="taskCheck"
           type="checkbox"
           checked={task.done}
           onChange={() => toggleTask(task)}

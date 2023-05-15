@@ -43,7 +43,7 @@ function App() {
         tasks={tasksItems}
         toggleTask={toggleTask}
         showCompleted={false}
-        tableName='Task'
+        tableName='List Task'
       />
       <VisibiltyControl
         setShowCompleted={(checked) => setShowCompleted(checked)}
@@ -56,7 +56,7 @@ function App() {
           tasks={tasksItems}
           toggleTask={toggleTask}
           showCompleted={showCompleted}
-          tableName='Task for done'
+          tableName='List task done'
         />
       )}
     </div>
